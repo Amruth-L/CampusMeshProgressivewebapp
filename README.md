@@ -2,6 +2,9 @@
 
 CampusMesh is a campus-only rental, route-matched courier, and private Xerox delivery platform. Lender, borrower, and courier are actions available to every verified student account.
 
+
+##HOSTED WEBLINK:
+https://campusmesh-amruth.onrender.com/
 ## Cloud deployment
 
 Deploy the repository root as a **Node web service**, using Node 22, build command `npm run build`, start command `npm start`, and health-check path `/health`. Set `SERVE_FRONTEND=true` and `NODE_ENV=production`. The root build explicitly uses the deployed origin for API and Socket.IO traffic, and the backend serves the compiled frontend and SPA deep links. Startup applies pending migrations; it never resets or seeds the database.
